@@ -1,0 +1,164 @@
+.CatgoriesSHow{
+    -webkit-transition: 4s;
+  
+    animation:CatgoriesSHow01 4s;
+  }
+  
+
+  @keyframes CatgoriesSHow01 {
+    from{
+     opacity: 0;
+    }
+    to{
+     opacity: 1;
+    }
+  }
+
+//   
+
+.CatgoriesSHow02{
+    -webkit-transition: 3s;
+  
+    animation:CatgoriesSHow02 6s;
+  }
+  
+
+  @keyframes CatgoriesSHow02 {
+    from{
+     opacity: 0;
+    }
+    to{
+     opacity: 1;
+    }
+  }
+
+
+  .CatgoriesSHow04{
+    -webkit-transition: 2s;
+  
+    animation:CatgoriesSHow04 2s;
+  }
+  
+
+  @keyframes CatgoriesSHow04 {
+    from{
+     opacity: 0;
+    }
+    to{
+     opacity: 1;
+    }
+  }
+
+  .CatgoriesSHow04s{
+    -webkit-transition: 2s;
+  
+    animation:CatgoriesSHow04s 2s;
+  }
+  
+
+  @keyframes CatgoriesSHow04s {
+    from {
+      opacity: 0;
+      height: 0px;
+    }
+  
+    to {
+      opacity: 1;
+      height: 350px;
+    }
+  }
+
+  .CatgoriesSHow04s2{
+    -webkit-transition: 2s;
+  
+    animation:CatgoriesSHow04s2 2s;
+  }
+  
+ 
+  @keyframes CatgoriesSHow04s2 {
+    from {
+      opacity: 0;
+      height: 0px;
+    }
+  
+    to {
+      opacity: 1;
+      height: 350px;
+    }
+  }
+  .AnimationOnMarginTopTomid02{
+    padding-top: 100px;
+    animation:AnimationOnMarginTopTomid03 2s;
+
+  }
+
+  @keyframes AnimationOnMarginTopTomid03 {
+  //  0%{
+  //    display: none;
+  //    padding-top: 0px;
+  //  }
+  //  50%{
+  //    display: none;
+  //    padding-top: 0px;
+  //  }
+  from{
+    display: none;
+    padding: 0px;
+  }
+   to{
+     padding-top: 100px;
+   }
+  }
+  .AnimationOnMarginTopTomid{
+    padding-top: 120px;
+    animation:AnimationOnMarginTopTomid01 2s;
+
+  }
+
+  @keyframes AnimationOnMarginTopTomid01 {
+  //  0%{
+  //    display: none;
+  //    padding-top: 0px;
+  //  }
+  //  50%{
+  //    display: none;
+  //    padding-top: 0px;
+  //  }
+  from{
+    display: none;
+    padding: 0px;
+  }
+   to{
+     padding-top: 120px;
+   }
+  }
+  //
+  .CatgoriesSHow03{
+    -webkit-transition: 4s;
+  
+    animation:CatgoriesSHow03 10s;
+  }
+  
+
+  @keyframes CatgoriesSHow03 {
+    from{
+     opacity: 0;
+    }
+    to{
+     opacity: 1;
+    }
+  }
+
+  .ScaleAnimation02{
+    animation: ScaleAnimation02 2s;
+  }
+  /* transform: scale(1.5) */
+  @keyframes ScaleAnimation02{
+    from {
+      transform: scale(0)
+    }
+    to {
+      transform: scale(1)
+    }
+  }
+  
