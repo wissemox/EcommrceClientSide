@@ -39,6 +39,7 @@ import "./Css/Reposive/Modal.scss"
 import {Redirect} from 'react-router-dom'
 import LogowhiteAnimatiion from './logo/LogowhiteAnimatiion'
 function App() {
+  process.env.CI = false;
   const dispatch =useDispatch()
   useEffect(() => {
     // GetUserLogged
